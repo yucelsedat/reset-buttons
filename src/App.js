@@ -1,4 +1,5 @@
 import React,{ useState } from "react";
+import './style.css'
 
 
 function SetText ({matrix}) {
@@ -51,15 +52,15 @@ function App() {
   }
   
   return (
-    <div style={ { width: '20%', margin: '100px auto', textAlign: 'center', border: '1px solid black', padding: '50px'}}>
+    <div className = "App">
         <SetText matrix = {matrix} />  
-          <button type="button" onClick = {() => updateMatrix('sari')}>
+          <button className="btn sari" type="button" onClick = {() => updateMatrix('sari')}>
             sari
           </button>
-          <button type="button" onClick = {() => updateMatrix('mavi')}>
+          <button className="btn mavi" type="button" onClick = {() => updateMatrix('mavi')}>
             mavi
           </button>
-          <button type="button" onClick = {() => clearMatrix()}>
+          <button className="btn" type="button" onClick = {() => clearMatrix()}>
             sifirla
           </button>
     </div> 

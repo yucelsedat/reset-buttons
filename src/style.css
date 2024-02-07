@@ -1,0 +1,35 @@
+
+body {
+    background-color: rgb(255, 224, 230);
+}
+
+.App {
+    width: 20%;
+    margin: 100px auto; 
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 2px 2px 20px  yellow;
+    padding: 50px;
+    background-color: rgb(119, 255, 92);
+    font-size: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    margin-right: 10px;
+    background-color: pink;
+    color: rgb(252, 84, 84);
+    font-weight: bold;
+}
+
+.mavi {
+    background-color: rgb(119, 119, 255);
+    color: rgb(26, 26, 207);
+}
+
+.sari {
+    
+    background-color: rgb(252, 252, 48);
+    color:rgb(170, 170, 9);
+}
